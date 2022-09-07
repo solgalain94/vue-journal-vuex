@@ -5,9 +5,9 @@
 import useAuth from './modules/auth/composables/useAuth'
 export default {
   setup(){
-    const {authStatus, checkAuthStatus} = useAuth
+    const {authStatus, checkStatus} = useAuth
 
-    checkAuthStatus()
+    checkStatus
 
     return{
       authStatus
